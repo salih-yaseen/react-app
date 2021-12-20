@@ -34,7 +34,7 @@ const App = ()=>{
     return React.createElement("div",{className:"conatainer"}),
     React.createElement("h1",{},"Student info"),
     stdInfo.map((std)=>{
-        React.createElement(stdCard,{
+        return React.createElement(stdCard,{
             stdName: std.stdName,
             image: std.image,
             study: std.study,
